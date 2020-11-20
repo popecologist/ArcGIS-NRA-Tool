@@ -7,7 +7,7 @@ There are two binary versions of the add-in:
 SpeciesTool.NET.20140619.esriAddIn - Version from 2014-06-14 compiled with Visual Studio 12, Microsoft .NET 3.4, and the matching (older) SDKs ArcGISRuntime and ArcObjects from ESRI.
 SpeciesTool.NET.20200228.esriAddIn -  Version from 2020-02-28 compiled with Visual Studio 17, Microsoft .NET 4.6.1, and the and the matching (newer) SDKs ArcGISRuntime 100.2.0 and ArcObjects for ArcGIS 10.6.1 from ESRI.
 
-Microsoft .NET, the SDK for ESRI ArcGISRuntime, and ESRI ArcObjects are not provided but have to be obtained from Microsoft and ESRI.
+Microsoft .NET, the SDK for ESRI ArcGISRuntime, and ESRI ArcObjects are not provided with the code but have to be obtained from Microsoft and ESRI.
 
 Copyright (c) 2020 Yu-Pin Lin / 林裕彬
 Department of Bioenvironmental Systems Engineering
