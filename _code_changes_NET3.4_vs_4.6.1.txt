@@ -1,0 +1,19 @@
+Upgrading form .NET 3.5 to .NET 4.61 
+we had to change the option settings for the 
+following libraries in the References section 
+of the Solution Explorer panel
+
+Property:                    EmbedInteropTypes
+
+Library                      original  changed to
+ESRI.ArcGIS.Carto            TRUE      FALSE
+ESRI.ArcGIS.DataSourcesFile  TRUE      FALSE
+ESRI.ArcGIS.Display          TRUE      FALSE
+ESRI.ArcGIS.Geodatabase      TRUE      FALSE
+ESRI.ArcGIS.Geometry         TRUE      FALSE
+
+
+for more see at:
+https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P8CVSA0
+https://community.esri.com/thread/181313
+https://gis.stackexchange.com/questions/298043/setting-embed-interop-types-in-arcobjects-to-true-or-false

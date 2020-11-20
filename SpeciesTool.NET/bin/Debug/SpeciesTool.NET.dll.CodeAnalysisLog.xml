@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET\bin\Debug\SpeciesTool.NET.dll">
+   <Modules>
+    <Module Name="speciestool.net.dll">
+     <Namespaces>
+      <Namespace Name="SpeciesTool.NET">
+       <Types>
+        <Type Name="CategorySelectionForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="CategorySelectionForm.Designer.cs" Line="60">Method 'CategorySelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Cancel".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="CategorySelectionForm.Designer.cs" Line="126">Method 'CategorySelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Category selection".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="CategorySelectionForm.Designer.cs" Line="97">Method 'CategorySelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Select IUCN category".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="CategorySelectionForm.Designer.cs" Line="70">Method 'CategorySelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Select".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExceptionDialog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.Designer.cs" Line="122">Method 'ExceptionDialog.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Close".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.Designer.cs" Line="162">Method 'ExceptionDialog.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Error dialog".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.Designer.cs" Line="133">Method 'ExceptionDialog.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Show details".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.Designer.cs" Line="87">Method 'ExceptionDialog.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Unexpected error".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.Designer.cs" Line="99">Method 'ExceptionDialog.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "label1".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RecalculateControlHeights(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.cs" Line="37">Method 'ExceptionDialog.RecalculateControlHeights(bool)' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Hide details".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ExceptionDialog.cs" Line="29">Method 'ExceptionDialog.RecalculateControlHeights(bool)' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Show details".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NRCPStatisticShapeFileHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'NRCPStatisticShapeFileHelper' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="NRCPStatisticShapeFileHelper.cs" Line="265">Change 'NRCPStatisticShapeFileHelper.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="NRCPStatisticShapeFileHelper.cs" Line="265">Modify 'NRCPStatisticShapeFileHelper.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NRCPStatisticShapeFileHelper+NRCPStatisticFeatureClassRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'NRCPStatisticShapeFileHelper.NRCPStatisticFeatureClassRow' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="NRCPStatisticShapeFileHelper.cs" Line="203">Change 'NRCPStatisticShapeFileHelper.NRCPStatisticFeatureClassRow.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="NRCPStatisticShapeFileHelper.cs" Line="203">Modify 'NRCPStatisticShapeFileHelper.NRCPStatisticFeatureClassRow.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ProgressDialog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'ProgressDialog' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="Utils.cs" Line="380">Change 'ProgressDialog.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="Utils.cs" Line="380">Modify 'ProgressDialog.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ResultsShapeFileHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'ResultsShapeFileHelper' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ResultsShapeFileHelper.cs" Line="432">Change 'ResultsShapeFileHelper.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="ResultsShapeFileHelper.cs" Line="432">Modify 'ResultsShapeFileHelper.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SelectionForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SelectionForm.Designer.cs" Line="58">Method 'SelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Cancel".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SelectionForm.Designer.cs" Line="68">Method 'SelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Create".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SelectionForm.Designer.cs" Line="107">Method 'SelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Creating thematic layers".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SelectionForm.Designer.cs" Line="79">Method 'SelectionForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Select species layers".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SpeciesParametersWindow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AddLayersFromResults()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="1527">Method 'SpeciesParametersWindow.AddLayersFromResults()' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Results shapefile does not exists".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="1556">Method 'SpeciesParametersWindow.AddLayersFromResults()' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Species layer \', \' not found".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btAnalyze_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="SpeciesTool.NET.ProgressDialog.set_Message(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="1049">Method 'SpeciesParametersWindow.btAnalyze_Click(object, EventArgs)' passes a literal string as parameter 'value' of a call to 'ProgressDialog.Message.set(string)'. Retrieve the following string(s) from a resource table instead: "Processing data for ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="1017">Method 'SpeciesParametersWindow.btAnalyze_Click(object, EventArgs)' passes a literal string as parameter 'value' of a call to 'ProgressDialog.Message.set(string)'. Retrieve the following string(s) from a resource table instead: "Reading IUCN categories".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="380">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: " ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="475">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: " ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="554">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: " ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="783">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: " ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="598">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="815">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="262">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Add layers from results".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="643">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Add thematic layers".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="392">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "All values".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="894">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Analyze NR and CP results".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="251">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Analyze results".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="240">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Analyze".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="310">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Biomes layer".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="621">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Calculation type".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="882">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Clear".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="674">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Distribution coeff.".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="417">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Focal region layer".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="610">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "IUCN categories".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="173">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Layers".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="736">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Local(&lt;=)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="565">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Overwrite the result".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="499">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Parameters".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="452">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Reference region layer".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="724">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Regional".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="843">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Results".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="632">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Save results to".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="428">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Selected values".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="298">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Species layers".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="712">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Wide(&gt;)".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="369">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "\'Name\' field for biomes".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="346">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "\'Name\' field for foc. regions".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="286">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "\'Name\' field for ref. regions".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="117">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "toolStrip1".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.FileDialog.set_Filter(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="142">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'FileDialog.Filter.set(string)'. Retrieve the following string(s) from a resource table instead: "CSV files (*.csv)|*.csv|All files (*.*)|*.*".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="150">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'FileDialog.Filter.set(string)'. Retrieve the following string(s) from a resource table instead: "Shape files (*.shp)|*.shp|All files (*.*)|*.*".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.ToolStripItem.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="135">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'ToolStripItem.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Filter layers".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.Designer.cs" Line="126">Method 'SpeciesParametersWindow.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'ToolStripItem.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Refresh Data".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#nudWide_ValueChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="751">Method 'SpeciesParametersWindow.nudWide_ValueChanged(object, EventArgs)' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "-".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SpeciesParametersWindow+MultipleLayerInfo" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose methods should call base class dispose" Category="Microsoft.Usage" CheckId="CA2215" Status="Active" Created="2020-02-21 22:54:51Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\klenke\source\repos\SpeciesTool.NET\SpeciesTool.NET" File="SpeciesParametersWindow.cs" Line="254">Ensure that method 'SpeciesParametersWindow.MultipleLayerInfo.Dispose()' calls base.'SpeciesParametersWindow.MultipleLayerInfo.Dispose()' in all possible control flow paths.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SpeciesTool.NET.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2020-02-21 22:54:51Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816">
+   <Name>Call GC.SuppressFinalize correctly</Name>
+   <Description>Call GC.SuppressFinalize to suppress finalization of your instance once Dispose has been called. Objects that implement IDisposable should call SuppressFinalize from the IDisposable.Dispose method to prevent the garbage collector from calling Object.Finalize on an object that does not require it.</Description>
+   <Resolution Name="NotCalled">Change {0} to call {1}. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182269.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose methods should call base class dispose" Category="Microsoft.Usage" CheckId="CA2215">
+   <Name>Dispose methods should call base class dispose</Name>
+   <Description>If a type inherits from a disposable type, it must call the Dispose method of the base type from within its own Dispose method.</Description>
+   <Resolution Name="Default">Ensure that method {0} calls base.{0} in all possible control flow paths.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182330.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Implement IDisposable correctly</Name>
+   <Description>All IDisposable types should implement the Dispose pattern correctly.</Description>
+   <Resolution Name="DisposeImplementation">Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Resolution>
+   <Resolution Name="ProvideDisposeBool">Provide an overridable implementation of Dispose(bool) on {0} or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,32 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>National Responsibility</Name>
+  <AddInID>{967a6983-e709-439d-b4da-4e0674a1cb06}</AddInID>
+  <Description>ArcGIS Tool for the Assessment of National Responsibilities for Endangered Species and Habitats</Description>
+  <Version>1.0.1</Version>
+  <Image>Images\ArcGISNRATool.NET.png</Image>
+  <Author>Community</Author>
+  <Company>Academia Sinica / The SCALES Project</Company>
+  <Date>28/02/2020</Date>
+  <Targets>
+    <Target name="Desktop" version="10.0" />
+  </Targets>
+  <AddIn language="CLR" library="SpeciesTool.NET.dll" namespace="SpeciesTool.NET">
+    <ArcMap>
+      <Commands>
+        <Button id="SpeciesToolNET_ShowSpeciesParametersWindowCommand" class="ShowSpeciesParametersWindowCommand" message="Show species distribution window" caption="Show species distribution window" tip="Show species distribution window" category="SpeciesTool.NET" image="Images\ShowSpeciesParametersWindowCommand.png" onDemand="false" />
+      </Commands>
+      <DockableWindows>
+        <DockableWindow id="SpeciesToolNET_SpeciesParametersWindow" class="SpeciesParametersWindow+AddinImpl" caption="National Responsibility Analysis" image="Images\SpeciesParametersWindow.png">
+          <InitialPlacement height="300" width="300" state="pinned" position="right" />
+        </DockableWindow>
+      </DockableWindows>
+      <Toolbars>
+        <Toolbar id="SpeciesToolNET_SpeciesToolbar" caption="Species Tool .NET Toolbar" showInitially="true">
+          <Items>
+            <Button refID="SpeciesToolNET_ShowSpeciesParametersWindowCommand" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
