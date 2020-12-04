@@ -35,4 +35,4 @@ Installation of the ArcGIS-add-in:
 There might be a "No GUI components found in this Add-In. Add-In version does not match." error during installation. This error only occurs when a user tries to install the add-in using the <Add From File button> in the Customize dialog. When the add-in is double-clicked from Windows Explorer, the add-in is installed successfully. This is a defect (NIM095435 http://support.esri.com/bugs/nimbus/TklNMDk1NDM1. A potential workaround is to either: <Double click> the Add-In in Windows Explorer to install OR add folder through <options> in Add-In Manager (see more at: https://community.esri.com/thread/162324).
 
 References:
-Lin Y-P, Schmeller D S, Ding T S, Wang Y Ch,  Lien W-Y, Henle K, Klenke R A (2020): A GIS-based policy support tool to determine national responsibilities and priorities for biodiversity conservation. PLoS ONE. doi: xxxxxx
+Lin YP, Schmeller DS, Ding TS, Wang YC, Lien WY, Henle K, Klenke RA (2020) A GIS-based policy support tool to determine national responsibilities and priorities for biodiversity conservation. PLOS ONE 15(12): e0243135. https://doi.org/10.1371/journal.pone.0243135
