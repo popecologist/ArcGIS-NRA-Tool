@@ -1,7 +1,7 @@
 # ArcGIS-NRA-Tool
 ArcGIS Tool for the Assessment of National Responsibilities for Endangered Species and Habitats
 
-The aim of the source code is to develop a National Responsibility Assessment Tool that can be used as plug-in for ArcGIS (https://github.com/popecologist/ArcGIS-NRA-Tool or http://popecologist.github.io).
+The aim of the source code is to develop a National Responsibility Assessment Tool that can be used as plug-in for ArcGIS. The tool and the source code is hosted at github (https://github.com/popecologist/ArcGIS-NRA-Tool or http://popecologist.github.io) and mirrored for public access at sourceforge (https://sourceforge.net/projects/arcgis-nra-tool/ and https://sourceforge.net/p/arcgis-nra-tool/code/ci/main/tree/). 
 
 There are two binary versions of the add-in:
 SpeciesTool.NET.20140619.esriAddIn - Version from 2014-06-14 compiled with Visual Studio 12, Microsoft .NET 3.4, and the matching (older) SDKs ArcGISRuntime and ArcObjects from ESRI.
