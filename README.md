@@ -24,7 +24,7 @@ Credits:
    Academia Sinica (programming)
    Reinhard A. Klenke (revising, updating)
 
-The development of the ArcGIS-NRA-Tool was mainly funded by Ministry of Science and Technology of Taiwan (former National Science Council of Taiwan, code NSC101-2923-I-002-001-MY2), and a contribution from the EU FP7 project SCALES: Securing the Conservation of biodiversity across Administrative Levels and spatial, temporal, and Ecological Scales, under the European Union’s Framework Program 7 (Code: 226852 FP7-ENVIRONMENT ENV.2008.2.1.4.4., www. scales-project.net.
+The development of the ArcGIS-NRA-Tool was mainly funded by Ministry of Science and Technology of Taiwan (former National Science Council of Taiwan, code NSC101-2923-I-002-001-MY2), and a contribution from the EU FP7 project SCALES: Securing the Conservation of biodiversity across Administrative Levels and spatial, temporal, and Ecological Scales, under the European Union’s Framework Program 7 (Code: 226852 FP7-ENVIRONMENT ENV.2008.2.1.4.4., www.scales-project.net.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
